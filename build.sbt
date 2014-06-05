@@ -32,6 +32,8 @@ libraryDependencies += "org.parboiled" % "parboiled-java" % "1.1.6"
 
 libraryDependencies += "org.eclipse.jgit" % "org.eclipse.jgit" % "3.2.0.201312181205-r"
 
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.11.4" % "test"
+
 resolvers += Resolver.sonatypeRepo("public")
 
 scalacOptions ++= Seq("-feature", "-deprecation")
